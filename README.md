@@ -1,2 +1,2 @@
 index
- [demo]( https://zero7room.github.io/index/index.html)
+ [demo]( https://zero7room.github.io/index/dist/index.html)
