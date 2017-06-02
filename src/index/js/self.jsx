@@ -23,7 +23,7 @@ export default class Main extends React.Component {
     render() {
         return (
           <div>
-            <p>自我介绍</p>
+            <p>自我介绍1</p>
           </div>
         );
     }
