@@ -13,6 +13,8 @@ import Self from 'index/js/self.jsx';
 import Project from 'index/js/project.jsx';
 import Table from 'index/js/table.jsx';
 import LineChart from 'index/js/LineChart.jsx';
+import barChart from 'index/js/barChart.jsx';
+import AreaChart from 'index/js/areaChart.jsx';
 
 
 const { SubMenu } = Menu;
@@ -77,16 +79,28 @@ render(
                         <SubMenu key="sub2" title={<span><Icon type="pie-chart" />Recharts</span>}>
                           <Menu.Item key="6">
                               <NavLink replace to='/linechart'>
-                                <Icon type='user' />
+                                <Icon type='line-chart' />
                                 LineChart
+                              </NavLink>
+                          </Menu.Item>
+                          <Menu.Item key="7">
+                              <NavLink replace to='/barchart'>
+                                <Icon type='bar-chart' />
+                                BarChart
+                              </NavLink>
+                          </Menu.Item>
+                          <Menu.Item key="8">
+                              <NavLink replace to='/areaChart'>
+                                <Icon type='area-chart' />
+                                AreaChart
                               </NavLink>
                           </Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub3" title={<span><Icon type="rocket" />组件化介绍</span>}>
-                          <Menu.Item key="7">option5</Menu.Item>
-                          <Menu.Item key="8">option6</Menu.Item>
+                          <Menu.Item key="9">option5</Menu.Item>
+                          <Menu.Item key="10">option6</Menu.Item>
                         </SubMenu>
-                        <Menu.Item key="3">
+                        <Menu.Item key="11">
                           <NavLink replace to='/self'>
                             <Icon type='desktop' />
                             本站介绍
@@ -100,6 +114,8 @@ render(
                         <Route path="/project" component={Project}/>
                         <Route path="/table" component={Table}/>
                         <Route path="/linechart" component={LineChart}/>
+                        <Route path="/barChart" component={barChart}/>
+                        <Route path="/areaChart" component={AreaChart}/>
                     </Content>
                 </Layout>
             </HashRouter>

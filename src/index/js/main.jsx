@@ -83,31 +83,25 @@ export default class Main extends React.Component {
             { subject: '理解能力', A: 130, B: 90, fullMark: 150 },
             { subject: '设计能力', A: 125, B: 85, fullMark: 150 },
         ];
-
-        const data3 = [
-            { subject: '推进', A: 120, B: 90, fullMark: 150 },
-            { subject: '战绩（KDA）', A: 135, B: 135, fullMark: 150 },
-            { subject: '团战', A: 126, B: 90, fullMark: 150 },
-            { subject: '发育', A: 130, B: 90, fullMark: 150 },
-            { subject: '生存', A: 120, B: 140, fullMark: 150 },
-            { subject: '输出', A: 125, B: 80, fullMark: 150 },
-        ];
-
         const skillDate = [
             {name:"HTML", value:5},
             {name:"CSS", value:5},
             {name:"JavaScript", value:4.5},
             {name:"jQuery", value:4.5},
+            {name:"zepto", value:4.5},
             {name:"ES6", value:4},
             {name:"React", value:4.5},
             {name:"R-redux", value:4},
             {name:"R-router", value:4.5},
             {name:"Dva", value:4},
             {name:"webpack", value:4.5},
+            {name:"fis", value:4},
             {name:"vue", value:3},
             {name:"angular", value:3},
             {name:"recharts", value:4},
-            {name:"echarts", value:3}
+            {name:"echarts", value:3},
+            {name:"Git", value:4},
+            {name:"Svn", value:4}
         ];
 
         const BaseInfo = () => (
@@ -123,7 +117,7 @@ export default class Main extends React.Component {
         );
         const Weather = () => (
             <div>
-                <p>说点啥呢</p>
+                <p>梦想并非遥不可及</p>
             </div>
         );
 
@@ -199,8 +193,15 @@ export default class Main extends React.Component {
                         采用rem布局，控制字体大小。兼容不同终端、不同平屏幕的视觉效果统一<br/>
                     </p>
                 </Panel>
-                <Panel header="项目3" key="3">
-                    <p>333</p>
+                <Panel header="后台管理与官网" key="3">
+                    <p>
+                        后台管理系统:<br/>
+                        展示后端提供的数据、将后端提供的数据进行可视化操作。并与后端进行数据上的交互。<br/>
+                        主要功能包括导航、列表、表单、图标可视化，以及一些逻辑交互功能等。后台管理系统大同小异，与上述金融运营平台相似，不进行细致描述啦。<br/>
+                        公司官网、H5活动页面:<br/>
+                        官网主要展示给广大用户群体，展示本公司的信息、主要业务和产品等。注重用户体验，多以CSS3动画、HTML5等技术、数据逻辑交互不多，功能简单。使用一些动画库animate来完成一些常见炫酷效果。<br/>
+                        移动端、H5页面，由于移动端视图展示有限，主要以展示为主、注重用户体验、小型的表单。像H5这样的宣传页面，全面滚动技术，轮播技术多一些，运用swiper.js即可实现。<br/>
+                    </p>
                 </Panel>
             </Collapse>
         )
@@ -214,7 +215,7 @@ export default class Main extends React.Component {
                         </Card>
                     </Col>
                     <Col lg={6} md={24}>
-                        <Card title="Motto">
+                        <Card title="信仰">
                             <Weather/>
                         </Card>
                     </Col>
