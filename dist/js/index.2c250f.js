@@ -56439,13 +56439,13 @@ var Main = function (_React$Component) {
                 'div',
                 null,
                 _react2.default.createElement(
+                    'h4',
+                    null,
+                    '\u7EC4\u4EF6\u5316\u80CC\u666F'
+                ),
+                _react2.default.createElement(
                     'p',
                     null,
-                    _react2.default.createElement(
-                        'h4',
-                        null,
-                        '\u7EC4\u4EF6\u5316\u80CC\u666F'
-                    ),
                     _react2.default.createElement('br', null),
                     '\u73B0\u6709\u7684\u5F00\u53D1\u6A21\u5F0F',
                     _react2.default.createElement('br', null),
@@ -56464,13 +56464,17 @@ var Main = function (_React$Component) {
                     '\u4E00\u4E2A\u9875\u9762\u5E72\u7684\u4E8B\u60C5\u592A\u591A\uFF0C\u8FED\u4EE3\u5669\u8017',
                     _react2.default.createElement('br', null),
                     _react2.default.createElement('br', null),
-                    _react2.default.createElement('br', null),
-                    _react2.default.createElement(
-                        'h4',
-                        null,
-                        '\u6838\u5FC3\u76EE\u6807'
-                    ),
-                    _react2.default.createElement('br', null),
+                    _react2.default.createElement('br', null)
+                ),
+                _react2.default.createElement(
+                    'h4',
+                    null,
+                    '\u6838\u5FC3\u76EE\u6807'
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'p',
+                    null,
                     '\u63D0\u9AD8\u524D\u7AEF\u8BBE\u8BA1\u3001\u5F00\u53D1\u6548\u7387',
                     _react2.default.createElement('br', null),
                     '\u63D0\u9AD8\u5F00\u53D1\u8D28\u91CF',
