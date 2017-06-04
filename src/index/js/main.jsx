@@ -117,7 +117,10 @@ export default class Main extends React.Component {
         );
         const Weather = () => (
             <div>
-                <p>梦想并非遥不可及</p>
+                <p>
+                    未来的成功是基于现在的每一分每一秒，学会享受当下，充实每一分每一秒，梦想离你越来越近！<br/>
+                    最败人的两个字：<b>骄</b>，<b>惰</b>，切记！
+                </p>
             </div>
         );
 

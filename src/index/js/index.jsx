@@ -10,11 +10,13 @@ import reducer from 'index/js/reducer.jsx';
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import Main from 'index/js/main.jsx';
 import Self from 'index/js/self.jsx';
+import Device from 'index/js/device.jsx';
 import Project from 'index/js/project.jsx';
 import Table from 'index/js/table.jsx';
 import LineChart from 'index/js/LineChart.jsx';
 import barChart from 'index/js/barChart.jsx';
 import AreaChart from 'index/js/areaChart.jsx';
+import Selfweb from 'index/js/selfweb.jsx';
 
 
 const { SubMenu } = Menu;
@@ -97,11 +99,16 @@ render(
                           </Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub3" title={<span><Icon type="rocket" />组件化介绍</span>}>
-                          <Menu.Item key="9">option5</Menu.Item>
+                          <Menu.Item key="9">
+                              <NavLink replace to='/device'>
+                                <Icon type='area-chart' />
+                                组件化背景
+                              </NavLink>
+                          </Menu.Item>
                           <Menu.Item key="10">option6</Menu.Item>
                         </SubMenu>
                         <Menu.Item key="11">
-                          <NavLink replace to='/self'>
+                          <NavLink replace to='/selfweb'>
                             <Icon type='desktop' />
                             本站介绍
                           </NavLink>
@@ -116,6 +123,8 @@ render(
                         <Route path="/linechart" component={LineChart}/>
                         <Route path="/barChart" component={barChart}/>
                         <Route path="/areaChart" component={AreaChart}/>
+                        <Route path="/device" component={Device}/>
+                        <Route path="/selfweb" component={Selfweb}/>
                     </Content>
                 </Layout>
             </HashRouter>
