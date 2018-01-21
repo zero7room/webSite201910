@@ -56643,11 +56643,6 @@ var Main = function (_React$Component) {
                     _react2.default.createElement(
                         'p',
                         null,
-                        '\u53C2\u52A0\u5DE5\u4F5C\u65F6\u95F4\uFF1A2014\u5E749\u6708'
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
                         '\u4E0A\u5BB6\u516C\u53F8\uFF1A\u767E\u5EA6FSG\u91D1\u878D\u4E8B\u4E1A\u90E8\uFF08\u8F6F\u901A\u5916\u6D3E\uFF09'
                     ),
                     _react2.default.createElement(

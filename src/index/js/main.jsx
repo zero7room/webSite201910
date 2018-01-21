@@ -109,7 +109,6 @@ export default class Main extends React.Component {
                 <p>姓名：王泽琦</p>
                 <p>性别：男</p>
                 <p>年龄：25</p>
-                <p>参加工作时间：2014年9月</p>
                 <p>上家公司：百度FSG金融事业部（软通外派）</p>
                 <p>职位：web前端高级工程师（FE）</p>
                 <p>负责项目：金融商业运营平台</p>
