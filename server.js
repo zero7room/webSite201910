@@ -14,4 +14,4 @@ function get_file_content(filepath) {
 }
 
 var server = http.createServer(handle_request);
-server.listen(8080);
+server.listen(80);
