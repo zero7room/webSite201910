@@ -6,7 +6,7 @@ export const Content = styled.div`
   flex: 1;
   justify-content: space-between;
   position: fixed;
-  top: 0;
+  top: 90px;
   bottom: 0;
   width: 100%;
   .p-footer{

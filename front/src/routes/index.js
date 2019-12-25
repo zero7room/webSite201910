@@ -12,59 +12,59 @@ import Person from '../application/Person';
 export default [
   {
     path: "/",
-    exact: true,
-    component: Person
-  },
-  {
-    path: "/music",
     component: Home,
     routes: [
       {
-        path: "/music",
+        path: "/",
+        exact: true,
+        component: Person
+      },
+      {
+        path: "/",
         exact: true,
         render: () => (
-          <Redirect to={"/music/recommend/"}/>
+          <Redirect to={"/recommend/"}/>
         )
       },
       {
-        path: "/music/recommend/",
+        path: "/recommend/",
         component: Recommend,
         routes: [
           {
-            path: "/music/recommend/:id",
+            path: "/recommend/:id",
             component: Album
           }
         ]
       },
       {
-        path: "/music/singers",
+        path: "/singers",
         component: Singers,
         routes: [
           {
-            path: '/music/singers/:id',
+            path: '/singers/:id',
             component: Singer
           }
         ]
       },
       {
-        path: "/music/rank/",
+        path: "/rank/",
         component: Rank,
         key: "rank",
         routes: [
           {
-            path: "/music/rank/:id",
+            path: "/rank/:id",
             component: Album
           }
         ]
       },
       {
-        path: "/music/album/:id",
+        path: "/album/:id",
         exact: true,
         key: "album",
         component: Album
       },
       {
-        path: "/music/search",
+        path: "usic/search",
         exact: true,
         key: "search",
         component: Search
