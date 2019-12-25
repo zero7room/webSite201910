@@ -19,7 +19,7 @@ function Home(props){
         <span className="iconfont search" onClick={() => props.history.push('/search')}>&#xe62b;</span>
       </Top>
       <Tab>
-        <NavLink to="/person" activeClassName="selected"><TabItem><span>首页</span></TabItem></NavLink>
+        {/* <NavLink to="/" activeClassName="selected"><TabItem><span>首页</span></TabItem></NavLink> */}
         <NavLink to="/music/recommend" activeClassName="selected"><TabItem><span>推荐</span></TabItem></NavLink>
         <NavLink to="/music/singers" activeClassName="selected"><TabItem><span>歌手</span></TabItem></NavLink>
         <NavLink to="/music/rank" activeClassName="selected"><TabItem><span>排行榜</span></TabItem></NavLink>
