@@ -17,14 +17,14 @@ export default [
       {
         path: "/",
         exact: true,
-        component: Person
+        render: () => (
+          <Redirect to={"/person/"}/>
+        )
       },
       {
-        path: "/",
+        path: "/person",
         exact: true,
-        render: () => (
-          <Redirect to={"/recommend/"}/>
-        )
+        component: Person
       },
       {
         path: "/recommend/",
