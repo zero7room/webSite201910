@@ -6,17 +6,17 @@ function Person(props) {
   return (
     <Content>
         <div className="p-header">
-            wangzeqi
+            wangzeqi个人网站
         </div>
         <div className="p-body">
-            wangzeqi
+
         </div>
         <div className="p-footer">
-            <span>zero7room@126.com</span>
-            <a href="http://www.beian.miit.gov.cn/" target="_balnk">京ICP备19047197号-1</a>
+            <span>www.wangzeqi.online 2019 @ All rights Reserved</span><br/>
             <a href="http://www.beian.miit.gov.cn/" target="_balnk">
-                <img src={require('./police.png')} alt="police"/>
+                <img src={require('./police.png')} alt="police"/>京ICP备19047197号-1
             </a>
+            {/* <a href="http://www.beian.miit.gov.cn/" target="_balnk"></a> */}
 
         </div>
     </Content>
